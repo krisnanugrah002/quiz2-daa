@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "4cGqVFZj3ck=",
+  "success": true,
+  "projectFilePath": "D:\\SEM3\\DAA\\quiz2-daa\\quiz2-daa-bfs\\quiz2-daa-bfs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\krisn\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.306\\microsoft.net.sdk.compilers.toolset.9.0.306.nupkg.sha512",
+    "C:\\Users\\krisn\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.21\\microsoft.windowsdesktop.app.ref.8.0.21.nupkg.sha512",
+    "C:\\Users\\krisn\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.21\\microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
+    "C:\\Users\\krisn\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.21\\microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512",
+    "C:\\Users\\krisn\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.21\\microsoft.netcore.app.host.win-x64.8.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}
