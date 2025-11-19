@@ -19,7 +19,7 @@ namespace quiz2_daa_bfs
 
         private async void Form1_Load(object sender, EventArgs e)
         {
-            txtHasil.Text = "Sedang memuat data routes.csv di background...\nMohon tunggu...";
+            txtHasil.Text = "Loading routes.csv data, please wait.....";
             await LoadFlightDataAsync();
         }
 
@@ -29,7 +29,7 @@ namespace quiz2_daa_bfs
 
             if (!File.Exists(csvFilePath))
             {
-                MessageBox.Show($"File data tidak ditemukan: {csvFilePath}\nPastikan file CSV ada di folder output (misal: bin/Debug)", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"File is not found: {csvFilePath}\nMake sure all CSV file is in folder output.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -113,16 +113,16 @@ namespace quiz2_daa_bfs
                     comboAsal.Items.AddRange(airportList.ToArray());
                     comboTujuan.Items.AddRange(airportList.ToArray());
 
-                    txtHasil.Text = $"Data routes.csv berhasil dimuat.\nDitemukan {airportCount} bandara.\nMemproses {flightCount} rute penerbangan non-stop.\nSilakan pilih rute.";
+                    txtHasil.Text = $"Data routes.csv succesfully loaded.\nFounded {airportCount} airports.\n Please select route.";
                 }
                 else
                 {
-                    txtHasil.Text = "Data CSV dimuat, namun tidak ada data penerbangan '0 stops' yang ditemukan. Cek file CSV.";
+                    txtHasil.Text = "CSV succesfully loaded, but there is no direct flight, please check CSV";
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Terjadi error saat memuat data: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error while load the data: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -136,7 +136,7 @@ namespace quiz2_daa_bfs
 
             if (comboAsal.SelectedItem == null || comboTujuan.SelectedItem == null)
             {
-                txtHasil.Text = "Silakan pilih bandara Asal dan Tujuan.";
+                txtHasil.Text = "Please select origin and destination airport";
                 return;
             }
 
@@ -145,24 +145,24 @@ namespace quiz2_daa_bfs
 
             if (startNode == endNode)
             {
-                txtHasil.Text = "Bandara Asal dan Tujuan tidak boleh sama.";
+                txtHasil.Text = "Origin and destination airport cannot be the same.";
                 return;
             }
 
             var resultBuilder = new StringBuilder();
-            resultBuilder.AppendLine($"Mencari rute dari {startNode} ke {endNode}...");
+            resultBuilder.AppendLine($"Searching routes from {startNode} to {endNode}...");
             resultBuilder.AppendLine("==========================================");
             resultBuilder.AppendLine();
 
-            resultBuilder.AppendLine("--- Hasil BFS (Rute Paling Sedikit Transit) ---");
+            resultBuilder.AppendLine("--- Routes founded ---");
 
             var bfsRoute = BFSFinder.FindRouteBFS(_flightGraph, startNode, endNode);
 
             if (bfsRoute.Count > 0)
             {
                 int transitCount = Math.Max(0, bfsRoute.Count - 1);
-                resultBuilder.AppendLine($"Jumlah Transit: {transitCount}");
-                resultBuilder.AppendLine("Detail Rute:");
+                resultBuilder.AppendLine($"Total transit: {transitCount}");
+                resultBuilder.AppendLine("Route details:");
 
                 int flightNumber = 1;
                 foreach (var flight in bfsRoute)
@@ -173,7 +173,7 @@ namespace quiz2_daa_bfs
             }
             else
             {
-                resultBuilder.AppendLine("Tidak ada rute yang ditemukan.");
+                resultBuilder.AppendLine("No routes found!.");
             }
 
             txtHasil.Text = resultBuilder.ToString();
