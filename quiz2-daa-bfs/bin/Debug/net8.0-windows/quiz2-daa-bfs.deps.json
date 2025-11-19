@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "quiz2-daa-bfs/1.0.0": {
+        "runtime": {
+          "quiz2-daa-bfs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "quiz2-daa-bfs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\bin\Debug\net8.0-windows\quiz2-daa-bfs.exe
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\bin\Debug\net8.0-windows\quiz2-daa-bfs.deps.json
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\bin\Debug\net8.0-windows\quiz2-daa-bfs.runtimeconfig.json
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\bin\Debug\net8.0-windows\quiz2-daa-bfs.dll
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\bin\Debug\net8.0-windows\quiz2-daa-bfs.pdb
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\obj\Debug\net8.0-windows\quiz2_daa_bfs.Form1.resources
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\obj\Debug\net8.0-windows\quiz2-daa-bfs.csproj.GenerateResource.cache
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\obj\Debug\net8.0-windows\quiz2-daa-bfs.GeneratedMSBuildEditorConfig.editorconfig
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\obj\Debug\net8.0-windows\quiz2-daa-bfs.AssemblyInfoInputs.cache
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\obj\Debug\net8.0-windows\quiz2-daa-bfs.AssemblyInfo.cs
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\obj\Debug\net8.0-windows\quiz2-daa-bfs.csproj.CoreCompileInputs.cache
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\obj\Debug\net8.0-windows\quiz2-daa-bfs.sourcelink.json
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\obj\Debug\net8.0-windows\quiz2-daa-bfs.dll
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\obj\Debug\net8.0-windows\refint\quiz2-daa-bfs.dll
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\obj\Debug\net8.0-windows\quiz2-daa-bfs.pdb
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\obj\Debug\net8.0-windows\quiz2-daa-bfs.genruntimeconfig.cache
+c:\Valent\ITSFILE\SEM_3_BOLO\PAA\quiz2-daa\quiz2-daa-bfs\obj\Debug\net8.0-windows\ref\quiz2-daa-bfs.dll
